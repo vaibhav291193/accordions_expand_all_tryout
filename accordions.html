@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/accordions.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Design System - Accordions</title>
+</head>
+
+<body>
+    <div class="ds-container">
+        <div class="example-container">
+            <h1>Accordions</h1>
+            
+            <div class="ds-accordions__container">
+                <div class="accordion__controls">
+                    <button id="accordion-actions" aria-live="polite" class="ds-accordion__button--expand-all by-keyboard" aria-expanded="false">
+                        <span class="accordion--expand-open-all">Expand all</span>
+                        <span class="accordion--expand-close-all">Collapse all</span>
+                    </button>
+                </div>
+                <div class="ds-accordion" id="accordion-1">
+                        <button class="ds-accordion__button by-keyboard" id="accordion-button-id-1" aria-controls="accordion-content-1" aria-expanded="false" data-toggle="collapse">
+                            <h2>Heading</h2>
+                            <span class="accordion__button-icon--close">
+                                <svg class="icon" alt="" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 11L8 5L2 11" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span class="accordion__button-icon--open">
+                                <svg class="icon" alt="" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 5L8 11L2 5" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <section class="ds-accordion__content" id="accordion-content-1" aria-labelledby="accordion-button-id-1" aria-hidden="true" data-toggle="expander-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet felis vel augue pulvinar pulvinar. Aliquam faucibus molestie faucibus. Suspendisse a ex pharetra, laoreet massa nec, auctor augue. Sed sit amet urna in quam feugiat aliquet. Fusce pulvinar ornare nulla, et porttitor ipsum aliquet ut. Pellentesque feugiat sodales mattis. Aliquam elementum sollicitudin lacus, eget tempus ex pulvinar eu. Quisque eu lacus a eros elementum placerat. Ut gravida lacinia enim, scelerisque facilisis massa fermentum ut. Nulla sollicitudin enim at elit lobortis, ac commodo mauris convallis. Curabitur felis est, suscipit quis felis in, feugiat sodales tortor.
+                            </p>
+                            <p>
+                                Maecenas sed rutrum eros. Integer lobortis euismod turpis, vel interdum massa fermentum id. Nunc libero enim, molestie eu dictum quis, aliquam ac nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed scelerisque tortor. Pellentesque ullamcorper pellentesque efficitur. Vivamus at aliquam orci. Cras a mauris porttitor mi condimentum viverra eget sit amet mauris. Nam dolor arcu, imperdiet vitae pellentesque sed, dignissim ac urna.
+                            </p>
+                        </section>
+                </div>
+                <div class="ds-accordion" id="accordion-2">
+                        <button class="ds-accordion__button by-keyboard" id="accordion-button-id-2" aria-controls="accordion-content-2" aria-expanded="false" data-toggle="collapse">
+                            <h2>Heading</h2>
+                            <span class="accordion__button-icon--close">
+                                <svg class="icon" alt="" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 11L8 5L2 11" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span class="accordion__button-icon--open">
+                                <svg class="icon" alt="" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 5L8 11L2 5" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <section class="ds-accordion__content" id="accordion-content-2" aria-labelledby="accordion-button-id-2" aria-hidden="true" data-toggle="expander-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet felis vel augue pulvinar pulvinar. Aliquam faucibus molestie faucibus. Suspendisse a ex pharetra, laoreet massa nec, auctor augue. Sed sit amet urna in quam feugiat aliquet. Fusce pulvinar ornare nulla, et porttitor ipsum aliquet ut. Pellentesque feugiat sodales mattis. Aliquam elementum sollicitudin lacus, eget tempus ex pulvinar eu. Quisque eu lacus a eros elementum placerat. Ut gravida lacinia enim, scelerisque facilisis massa fermentum ut. Nulla sollicitudin enim at elit lobortis, ac commodo mauris convallis. Curabitur felis est, suscipit quis felis in, feugiat sodales tortor.
+                            </p>
+                            <p>
+                                Maecenas sed rutrum eros. Integer lobortis euismod turpis, vel interdum massa fermentum id. Nunc libero enim, molestie eu dictum quis, aliquam ac nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed scelerisque tortor. Pellentesque ullamcorper pellentesque efficitur. Vivamus at aliquam orci. Cras a mauris porttitor mi condimentum viverra eget sit amet mauris. Nam dolor arcu, imperdiet vitae pellentesque sed, dignissim ac urna.
+                            </p>
+                        </section>
+                </div>
+                <div class="ds-accordion" id="accordion-3">
+                        <button class="ds-accordion__button by-keyboard" id="accordion-button-id-3" aria-controls="accordion-content-3" aria-expanded="false" data-toggle="collapse">
+                            <h2>Heading</h2>
+                            <span class="accordion__button-icon--close">
+                                <svg class="icon" alt="" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 11L8 5L2 11" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span class="accordion__button-icon--open">
+                                <svg class="icon" alt="" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 5L8 11L2 5" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <section class="ds-accordion__content" id="accordion-content-3" aria-labelledby="accordion-button-id-3" aria-hidden="true" data-toggle="expander-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet felis vel augue pulvinar pulvinar. Aliquam faucibus molestie faucibus. Suspendisse a ex pharetra, laoreet massa nec, auctor augue. Sed sit amet urna in quam feugiat aliquet. Fusce pulvinar ornare nulla, et porttitor ipsum aliquet ut. Pellentesque feugiat sodales mattis. Aliquam elementum sollicitudin lacus, eget tempus ex pulvinar eu. Quisque eu lacus a eros elementum placerat. Ut gravida lacinia enim, scelerisque facilisis massa fermentum ut. Nulla sollicitudin enim at elit lobortis, ac commodo mauris convallis. Curabitur felis est, suscipit quis felis in, feugiat sodales tortor.
+                            </p>
+                            <p>
+                                Maecenas sed rutrum eros. Integer lobortis euismod turpis, vel interdum massa fermentum id. Nunc libero enim, molestie eu dictum quis, aliquam ac nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed scelerisque tortor. Pellentesque ullamcorper pellentesque efficitur. Vivamus at aliquam orci. Cras a mauris porttitor mi condimentum viverra eget sit amet mauris. Nam dolor arcu, imperdiet vitae pellentesque sed, dignissim ac urna.
+                            </p>
+                        </section>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+<script src="js/accordions-script.js"></script>
+</html>
